@@ -1,0 +1,30 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.colossos{
+    background-color: rgba(0, 0, 0, 0.486);
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 40px;
+    box-shadow: 0 0 40px #ffffff;
+}
+
+body{
+    background-image: url(Shadow.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h3{
+    font-family: Shadow;
+    font-size: 50px;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 30px #000000;
+}
+
+h2{
+    font-family: Shadow;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 30px #000000;
+}

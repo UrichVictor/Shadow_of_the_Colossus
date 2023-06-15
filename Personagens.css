@@ -1,0 +1,49 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: url(Shadow\ of\ the\ Colossus.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.Shadow{
+    background-color: rgba(0, 0, 0, 0.486);
+    border: 3px solid #ffffff;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin: 40px;
+    box-shadow: 0 0 40px #ffffff;
+}
+
+@font-face {
+    font-family: Shadow;
+    src: url(Shadow/Shadow.ttf);
+}
+
+h1{
+    font-family: Shadow;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 30px #000000;
+}
+
+h2{
+    font-family: Shadow;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #000000, 0 0 30px #000000;
+}
+
+#abc{
+    width: 300px;
+    height: 300px;
+}
+
+#abc2{
+    width: 300px;
+    height: 300px;
+}
+
+#abc3{
+    width: 600px;
+    height: 300px;
+}
